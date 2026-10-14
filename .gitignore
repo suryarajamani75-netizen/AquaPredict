@@ -1,0 +1,59 @@
+# AquaPredict .gitignore
+
+# Python virtual environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Byte-compiled / optimized / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Node / Frontend
+node_modules/
+dist/
+build/
+.next/
+out/
+*.tsbuildinfo
+
+# IDE and OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Data files (do not commit raw datasets, track .gitkeep)
+data/*
+!data/.gitkeep
+
+# Trained models and serializations (do not commit large binary artifacts, track .gitkeep)
+models/*
+!models/.gitkeep
+
+# Evaluation reports & generated artifacts (track folder structure via .gitkeep)
+reports/*
+!reports/.gitkeep
+
+# Temporary files and logs
+*.tmp
+*.log
+scratch/

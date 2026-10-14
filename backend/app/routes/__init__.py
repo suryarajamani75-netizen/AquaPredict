@@ -1,0 +1,3 @@
+"""
+AquaPredict API Routes Package.
+"""
